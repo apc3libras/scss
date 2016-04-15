@@ -1,0 +1,55 @@
+.container {
+  width: 960px; }
+
+#navigation a {
+  color: #FFFFFF;
+  font: Helvetica, sans-serif; }
+  #navigation a:hover {
+    color: #5B7B00;
+    text-decoration: none; }
+#navigation .navbar-brand {
+  font-size: 2em;
+  color: #FFFFFF;
+  font: Helvetica, sans-serif; }
+
+#header-area .jumbotron {
+  background-image: url(../images/golfheader.jpg);
+  width: 960px / 1;
+  height: 100%;
+  padding: 150px 0;
+  border-radius: 0px;
+  border: 10px solid #DFE0E6; }
+
+#intro-content {
+  padding-bottom: 10px; }
+  #intro-content h1 {
+    font-size: 2em;
+    font: Helvetica, sans-serif;
+    color: #5B7B00; }
+
+#thumbnails {
+  padding: 10px 0; }
+  #thumbnails img {
+    border: 10px solid #DFE0E6;
+    width: 240px; }
+
+#content-columns {
+  padding-top: 10px;
+  padding-bottom: 40px; }
+  #content-columns h2 {
+    font-size: 1.5em;
+    font: Helvetica, sans-serif;
+    color: #5B7B00; }
+
+#footer {
+  padding: 40px 0;
+  background: #333333; }
+  #footer ul li {
+    display: inline;
+    padding: 0 10px 0 10px; }
+  #footer a {
+    color: #FFFFFF;
+    font: Helvetica, sans-serif; }
+    #footer a:hover {
+      color: #5B7B00;
+      text-decoration: none; }

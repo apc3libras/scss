@@ -1,0 +1,140 @@
+// Variables
+
+$primary-color: #464646;
+$green: #5B7B00;
+$black: #000000;
+$navbar: #333333;
+$white: #FFFFFF;
+$lightgray: #DFE0E6;
+$font-stack: Helvetica, sans-serif;
+$site_max_width: 960px;
+
+
+// Mixins
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.container {
+	width: $site_max_width;
+}
+
+
+// Navigation SCSS
+
+#navigation {
+
+	a {
+		color: $white;
+		font: $font-stack;
+		&:hover {
+			color: $green;
+			text-decoration: none;
+		}
+	}
+
+	.navbar-brand {
+		font-size: 2em;
+		color: $white;
+		font: $font-stack;
+	}
+
+}// #navigation
+
+
+
+// Header-Area SCSS
+
+#header-area {
+
+	.jumbotron {
+		background-image: url(../images/golfheader.jpg);
+		width: 960px / 1;
+		height: 100%;
+		padding: 150px 0;
+		border-radius: 0px;
+		border: 10px solid $lightgray;
+	}
+
+}// #header-area
+
+
+
+
+// Intro-Content SCSS
+
+#intro-content {
+	
+	h1 {
+		font-size: 2em;
+		font: $font-stack;
+		color: $green;
+	}
+
+	padding-bottom: 10px;
+
+}// #intro-content
+
+
+
+
+// Thumbnails SCSS
+
+#thumbnails {
+	
+	img {
+		border: 10px solid $lightgray;
+		width: 960px * .25;
+	}
+
+	padding: 10px 0;
+
+
+}// #thumbnails
+
+
+
+
+// Content Columns SCSS
+
+#content-columns {
+	
+	h2 {
+		font-size: 1.5em;
+		font: $font-stack;
+		color: $green;
+	}
+
+	padding-top: 10px;
+	padding-bottom: 40px;
+
+}// #content-columns
+
+
+
+
+// Footer SCSS
+
+#footer {
+
+	ul li {
+		display: inline;
+		padding: 0 10px 0 10px;
+	}
+	a {
+		color: $white;
+		font: $font-stack;
+		&:hover {
+			color: $green;
+			text-decoration: none;
+		}
+	}
+
+	padding: 40px 0;
+	background: $navbar;
+
+}// #footer
